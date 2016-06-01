@@ -244,7 +244,7 @@
 
       var segmentized = location.search === "?segmentized",
           url = ["data",
-            segmentized ? "zh-mainland-provinces.topo.json" : "zh-mainland-provinces.topo.json"
+            segmentized ? "zh-mainland-provinces.topojson" : "zh-mainland-provinces.topojson"
           ].join("/");
       d3.json(url, function(topo) {
         topology = topo;
