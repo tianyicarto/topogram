@@ -155,14 +155,14 @@
             {name: "Domestic Migration", id: "domesticmig", key: "DOMESTICMIG%d", format: "+,"},
             {name: "Net Migration", id: "netmig", key: "NETMIG%d", format: "+,"},
             {name: "Residual", id: "residual", key: "RESIDUAL%d", format: "+,"},
-            {name: "Birth Rate", id: "birthrate", key: "RBIRTH%d", years: [2011], format: percent},
-            {name: "Death Rate", id: "deathrate", key: "RDEATH%d", years: [2011], format: percent},
-            {name: "Natural Increase Rate", id: "natincrate", key: "RNATURALINC%d", years: [2011], format: percent},
-            {name: "Int'l Migration Rate", id: "intlmigrate", key: "RINTERNATIONALMIG%d", years: [2011], format: percent},
-            {name: "Net Domestic Migration Rate", id: "domesticmigrate", key: "RDOMESTICMIG%d", years: [2011], format: percent},
-            {name: "Net Migration Rate", id: "netmigrate", key: "RNETMIG%d", years: [2011], format: percent},
+            {name: "Birth Rate", id: "birthrate", key: "RBIRTH%d", years: [2016], format: percent},
+            {name: "Death Rate", id: "deathrate", key: "RDEATH%d", years: [2016], format: percent},
+            {name: "Natural Increase Rate", id: "natincrate", key: "RNATURALINC%d", years: [2016], format: percent},
+            {name: "Int'l Migration Rate", id: "intlmigrate", key: "RINTERNATIONALMIG%d", years: [2016], format: percent},
+            {name: "Net Domestic Migration Rate", id: "domesticmigrate", key: "RDOMESTICMIG%d", years: [2016], format: percent},
+            {name: "Net Migration Rate", id: "netmigrate", key: "RNETMIG%d", years: [2016], format: percent},
           ],
-          years = [2010, 2011],
+          years = [2015, 2016],
           fieldsById = d3.nest()
             .key(function(d) { return d.id; })
             .rollup(function(d) { return d[0]; })
